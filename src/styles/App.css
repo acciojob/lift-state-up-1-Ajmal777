@@ -1,6 +1,6 @@
 .parent{
     background-color: blueviolet;
 }
-.child, .modal{
+.child{
     background-color: maroon;
 }
