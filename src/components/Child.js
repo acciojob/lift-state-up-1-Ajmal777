@@ -7,7 +7,7 @@ const Child = ({showModal, modal}) =>{
             {modal && 
                 <div className="modal">
                     <h3>Modal Content</h3>
-                    <p>This is the modal content</p>
+                    <p>This is the modal content.</p>
                 </div>
             }
         </div>
