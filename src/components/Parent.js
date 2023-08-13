@@ -1,3 +1,4 @@
+import React from "react";
 import Child from "./Child";
 import { useState } from "react";
 
@@ -6,7 +7,7 @@ const Parent = () =>{
     return (
         <div className="Parent">
             <h1>Parent Component</h1>
-            <Child showModal = {showModal}/>
+            <Child showModal = {showModal} modal = {modal}/>
             {modal && 
                 <div className="modal">
                     <h1>Modal Content</h1>
